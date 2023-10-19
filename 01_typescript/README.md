@@ -495,12 +495,12 @@ interface Pessoa{
 No exemplo acima, a interface inclui duas propriedades `nome`e `sobrenome`. Isso significa que qualquer objeto do tipo `Pessoa` deve definir as duas propriedades.
 
 ```typescript
-let pessoa1 = {
+let pessoa1: Pessoa = {
     nome: 'Maria',
     sobrenome: 'Simões'
 }
 
-let pessoa2 = {
+let pessoa2: Pessoa = {
     nome: 'Juliana',
     sobrenome: 'Silva'
 }

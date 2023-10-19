@@ -5,12 +5,12 @@ interface Pessoa{
 }
 
 //Cria 2 Objetos da Interface Pessoa
-let pessoa1 = {
+let pessoa1: Pessoa = {
     nome: 'João',
     sobrenome: 'Moreira'
 }
 
-let pessoa2 = {
+let pessoa2: Pessoa = {
     nome: 'Pedro',
     sobrenome: 'Silva'
 }
